@@ -7,9 +7,6 @@ pipeline {
     timeout(time: 10) 
   }
     agent any
-    tools {
-        jdk 'Jdk12'
-    }
     stages{
         stage('Prepare the flow'){
             steps{
