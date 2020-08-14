@@ -8,7 +8,7 @@ pipeline {
   }
     agent any
     environment {
-       JAVA_HOME = "/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.252.b09-2.amzn2.0.1.x86_64"
+       JAVA_HOME = "/usr/lib/jvm/java-11-openjdk-11.0.7.10-4.amzn2.0.1.x86_64"
    }
     stages{
         stage('Prepare the flow'){
